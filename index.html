@@ -6,40 +6,51 @@
   <meta name="viewport" content="width=device-width">
   <title>[insert name] Portifolio</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: var(--bs-font-sans-serif);
+      box-sizing: border-box;
+    }
+  </style>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid m-5">
+      <div class="row">
       <div class="col-8">
       <div class="text-left">
         <h1>Giuseppina Sherry Sayan</h1>
         <p style="font-size: 20px">Full Stack Developer</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut diam tempus, <a href="dsf" class="custom-link"> diam </a> amet, vestibulum mi. In et sem quam. Proin faucibus, augue quis placerat tempor, augue odio laoreet leo, eu vulputate massa lorem ac lectus. Sed mi odio, scelerisque id tempor eu, auctor ac elit. Mauris maximus libero a metus facilisis, et cursus nisi dignissim.</p>
-        
-        <button type="button" class="btn btn-primary" style="background: teal; color: white"><i class="bi bi-arrow-right-circle-fill"></i>&nbspPortfolio</button>
-        <button type="button" class="btn btn-primary" style="background: teal; color: white"><i class="bi bi-file-text-fill"></i>&nbspResume</button>
-        
-        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut diam tempus, <a href="dsf" class="custom-link"> diam </a> amet, vestibulum mi. In et sem quam. Proin faucibus, augue quis placerat tempor, augue odio laoreet leo, eu vulputate massa lorem ac lectus. Sed mi odio, scelerisque id tempor eu, auctor ac elit. Mauris maximus libero a metus facilisis, et cursus nisi dignissim. </p> 
+        <button type="button" class="btn btn-primary" ><i class="bi bi-arrow-right-circle-fill"></i>&nbspPortfolio</button>
+        <button type="button" class="btn btn-secondary"><i class="bi bi-file-text-fill"></i>&nbspResume</button>
       </div>
       </div>
-      <div class="col-3">
-        <div class="text-center">
-          <img src="user.jpg" alt="UserImage" height="250" style="border-radius: 15px">
+        <div class="col-3">
+          <div class="text-center"><img src="user.jpg" alt="UserImage" height="250" style="border-radius: 15px">
+       </div>
         </div>
-      </div>
+    </div>    
     </div>
   </nav>
 
   
-  <header class="text-center py-5">
-    <h1>Giuseppina Sherry Sayan</h1>
-    <p>Full Stack Developer</p>
+  <header class="text-left m-5 mt-3 mb-0">
+    <h2>What I do</h2>
   </header>
-
+  <div class="text-left m-5 mt-3">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut diam tempus, diam amet, vestibulum mi. In et sem quam. Proin faucibus, augue quis placerat tempor, <a href="" class="custom-link">odio laoreet</a> leo, eu vulputate <a href="" class="custom-link">massa lorem </a> lectus.</p>
+  </div>
   <section id="projects" class="container mt-5">
     <h2 class="text-center mb-5">Projects</h2>
     <div class="row">

@@ -1,17 +1,33 @@
-
-html {
-  scroll-behavior: smooth;
+.btn.btn-primary {
+  background: #30ab6c; 
+  border-color: #30ab6c; 
+  color: white;
+  font-weight: 600;
 }
-body {
-  font-family: var(--bs-font-sans-serif);
+.btn.btn-primary:hover {
+  background: #2a935d; 
+  border-color: #2a935d; 
 }
-
+.btn.btn-secondary {
+  font-weight: 600;
+}
 .text-left h1 {
   font-size: 50px;
+  font-weight: 600;
 }
 
+.text-left h2 {
+  font-weight: 600;
+  padding-left: 15px;
+  border-left: solid #30ab6c;
+  border-width: 5px;
+}
 
 .custom-link {
-  color: teal;
+  color: #30ab6c;
   text-decoration: none;
+}
+
+p {
+  color: #616161;
 }
