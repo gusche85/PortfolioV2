@@ -27,7 +27,33 @@
   color: #30ab6c;
   text-decoration: none;
 }
-
+.custom-link:hover {
+  color: #2a935d;
+  text-decoration: underline;
+}
+.custom-link1 {
+  color: black;
+}
+.custom-link1:hover {
+  color: #30ab6c;
+}
 p {
   color: #616161;
 }
+.card.custom-card {
+  border: none;
+}
+.card-body h6 {
+  font-weight: 600;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.card-body.fa-js {
+    font-size: 55px; /* Adjust the size as needed */
+    color: #30ab6c;   /* Set the color of the icon */
+}
+  
